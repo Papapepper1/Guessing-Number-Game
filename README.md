@@ -53,5 +53,5 @@ You should now be able to access and play the guessing number game through your 
 
 - If you win or run out of attempts, the game will display a message and allow you to start a new game by refreshing the page.
 
-
+This project is open-source and available under the [MIT License](LICENSE).
 Enjoy playing the game! If you have any suggestions or improvements, feel free to contribute or reach out to the developer.
