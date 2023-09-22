@@ -17,13 +17,33 @@ This is a simple number guessing game implemented in PHP. The game randomly sele
 
 To run this game on your local server, follow these steps:
 
-1. Make sure you have a PHP-enabled web server installed (e.g., XAMPP, WAMP, or MAMP).
+1. **Install a Local Web Server:**
 
-2. Download or clone the repository to your local machine.
+   You can use a local web server stack like XAMPP, WAMP, MAMP, or a similar alternative depending on your operating system. These stacks provide a web server (Apache), PHP, and MySQL (though you don't need MySQL for this project).
 
-3. Place the `guess.php` file in your web server's root directory.
+2. **Create a Project Directory:**
 
-4. Access the game by opening your web browser and navigating to `http://localhost/guess.php` (adjust the URL as needed based on your server configuration).
+   Create a directory on your computer where you'll place your PHP and CSS files. You can name this directory whatever you like.
+
+3. **Place Your Files:**
+
+   Place your `guess.php` PHP file and `theme.css` CSS file in the project directory.
+
+4. **Start the Local Web Server:**
+
+   Start your local web server stack (e.g., XAMPP) and make sure Apache and PHP are running.
+
+5. **Access Your Website:**
+
+Open your web browser and navigate to the following URL, replacing `"project-directory"` with the actual path to your project directory: http://localhost/project-directory/guess.php
+   
+For example, if your project directory is named "guessing-game," you would use:
+http://localhost/guessing-game/guess.php
+
+6. **Play the Game:**
+
+You should now be able to access and play the guessing number game through your web browser. The PHP file will interact with the server to process guesses, and the CSS file will style the game's appearance.
+
 
 ## Game Logic
 
